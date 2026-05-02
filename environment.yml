@@ -1,0 +1,10 @@
+name: web_audit2
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+    - flask
+    - requests
+    - beautifulsoup4

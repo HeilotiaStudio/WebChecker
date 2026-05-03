@@ -14,7 +14,30 @@
                     
         }
 
-     
+     /* Footer Styles - Add this at the end of your CSS file */
+footer {
+    background: #2d3748;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+footer p {
+    margin: 0;
+    color: #cbd5e0;
+}
+
+/* Make sure body doesn't have overflow issues */
+body {
+    overflow-x: hidden;
+}
 
 
         .container {

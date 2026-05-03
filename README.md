@@ -7,7 +7,7 @@
 conda env create -f environment.yml
 ```
 
-2. Activate the environment:
+2. Activate the environment (folder name must be web_audit2):
 ```bash
 conda activate web_audit2
 ```
